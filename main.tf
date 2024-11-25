@@ -62,7 +62,7 @@ resource "aws_instance" "main_instance" {
     aws_security_group.allow_all.id
   ]
   tags = {
-    Name       = "SashaInstance"
+    Name       = "SashaInstance2"
     team       = "platform"
     product    = "global"
     service    = "merchantview"
